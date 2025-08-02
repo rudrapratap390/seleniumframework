@@ -15,6 +15,7 @@ public class AssertionsTest {
 		System.out.println(sum);
 		
 		sa.assertAll("Test execution failed");
+//demo 
 		
 	}
 
