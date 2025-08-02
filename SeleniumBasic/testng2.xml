@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite"> <!-- Suite name-->
+  <test thread-count="5" name="smokeTest"> <!-- Module name -->
+  <groups>
+	  <run>
+		  <exclude name="smoke"/>
+	  </run>
+  </groups>
+    <classes>
+      <class name="testngDemo.TestngDemo"/>		  
+      <class name="testngDemo.TestngDemo2"/>
+      <class name="testngDemo.TestngDemo3"/>
+    </classes>
+  </test>
+</suite> <!-- TestngSuite -->

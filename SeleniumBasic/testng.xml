@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoTestSuites"> <!-- Suite name-->
+  <test thread-count="5" name="TestNgDemo1"> <!-- Module name -->
+  
+  <parameter name="userName	" value="test@gmail.com"/>
+  <parameter name="paasword	" value="test123"/>
+    <classes>
+      <class name="testngDemo.TestngDemo">
+		  <methods>
+			  
+			<!--  <exclude name="demo.*"/> -->
+		  </methods>
+      </class>
+      <class name="testngDemo.TestngDemo2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="TestNgDemo2"> <!-- Module name -->
+    <classes>
+           <class name="testngDemo.TestngDemo3"/>
+    </classes>
+  </test>
+</suite> <!-- TestngSuite -->

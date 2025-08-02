@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTestSuite" data-provider-thread-count="1"> <!-- Suite name-->
+<!--<listeners>
+	<listener class-name="testngDemo.TestListener"/>
+</listeners> -->
+ <!-- <parameter name="userName" value="test@gmail.com"/>
+  <parameter name="password" value="test123"/>  -->
+  <test thread-count="1" name="smokeTest"> <!-- Module name --> 
+    <classes>
+      <class name="reports.extentReports.ExtentReportTest"/>		
+      
+    </classes>
+  </test>
+</suite> <!-- TestngSuite -->
