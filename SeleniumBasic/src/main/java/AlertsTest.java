@@ -21,6 +21,8 @@ public class AlertsTest {
 		System.out.println(alertText);
 		driver.switchTo().alert().accept();
 
+// new comments added
+
 	}
 
 }
